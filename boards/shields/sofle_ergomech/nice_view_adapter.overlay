@@ -1,0 +1,5 @@
+/ {
+    nice_view_spi: &spi0 {
+        cs-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>;
+    };
+};
